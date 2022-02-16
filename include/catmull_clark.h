@@ -14,9 +14,9 @@
 //   SF  #SF by 4 list of quad mesh indices into SV
 // 
 void catmull_clark(
-  const Eigen::MatrixXd & V,
-  const Eigen::MatrixXi & F,
-  const int num_iters,
-  Eigen::MatrixXd & SV,
-  Eigen::MatrixXi & SF);
+	const Eigen::MatrixXd& V,
+	const Eigen::MatrixXi& F,
+	const int num_iters,
+	Eigen::MatrixXd& SV,
+	Eigen::MatrixXi& SF);
 #endif

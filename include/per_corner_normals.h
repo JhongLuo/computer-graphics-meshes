@@ -13,9 +13,9 @@
 //   N  #F*3 by 3 list of mesh vertex 3D normals, where the normal
 //     for corner F(i,j) is at N.row(i*3+j)
 void per_corner_normals(
-  const Eigen::MatrixXd & V,
-  const Eigen::MatrixXi & F,
-  const double corner_threshold,
-  Eigen::MatrixXd & N);
+	const Eigen::MatrixXd& V,
+	const Eigen::MatrixXi& F,
+	const double corner_threshold,
+	Eigen::MatrixXd& N);
 #endif
 

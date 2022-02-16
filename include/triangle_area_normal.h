@@ -11,8 +11,8 @@
 //   c  3D position of the third corner as a **row vector**
 // Returns the area normal of the triangle as a 3D row vector
 Eigen::RowVector3d triangle_area_normal(
-  const Eigen::RowVector3d & a, 
-  const Eigen::RowVector3d & b, 
-  const Eigen::RowVector3d & c);
+	const Eigen::RowVector3d& a,
+	const Eigen::RowVector3d& b,
+	const Eigen::RowVector3d& c);
 #endif
 

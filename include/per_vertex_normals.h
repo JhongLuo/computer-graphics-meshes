@@ -10,7 +10,7 @@
 // Outputs:
 //   N  #V by 3 list of per-face unit normal vectors
 void per_vertex_normals(
-  const Eigen::MatrixXd & V,
-  const Eigen::MatrixXi & F,
-  Eigen::MatrixXd & N);
+	const Eigen::MatrixXd& V,
+	const Eigen::MatrixXi& F,
+	Eigen::MatrixXd& N);
 #endif

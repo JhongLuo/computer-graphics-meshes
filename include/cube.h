@@ -12,11 +12,11 @@
 //   NV  6 by 3 list of 3D unit normal vectors
 //   NF  6 by 4 list of quad face indices into rows of NV
 void cube(
-  Eigen::MatrixXd & V,
-  Eigen::MatrixXi & F,
-  Eigen::MatrixXd & UV,
-  Eigen::MatrixXi & UF,
-  Eigen::MatrixXd & NV,
-  Eigen::MatrixXi & NF);
+	Eigen::MatrixXd& V,
+	Eigen::MatrixXi& F,
+	Eigen::MatrixXd& UV,
+	Eigen::MatrixXi& UF,
+	Eigen::MatrixXd& NV,
+	Eigen::MatrixXi& NF);
 
 #endif

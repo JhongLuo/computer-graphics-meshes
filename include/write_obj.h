@@ -14,11 +14,11 @@
 //   NF  #F by poly list of mesh face indices into NV
 // Returns true if write was successful
 bool write_obj(
-  const std::string & filename,
-  const Eigen::MatrixXd & V,
-  const Eigen::MatrixXi & F,
-  const Eigen::MatrixXd & UV,
-  const Eigen::MatrixXi & UF,
-  const Eigen::MatrixXd & NV,
-  const Eigen::MatrixXi & NF);
+	const std::string& filename,
+	const Eigen::MatrixXd& V,
+	const Eigen::MatrixXi& F,
+	const Eigen::MatrixXd& UV,
+	const Eigen::MatrixXi& UF,
+	const Eigen::MatrixXd& NV,
+	const Eigen::MatrixXi& NF);
 #endif 

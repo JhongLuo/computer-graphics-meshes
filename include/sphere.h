@@ -16,14 +16,14 @@
 //   NV  #NV  by 3 list of 3D unit normal vectors
 //   NF  #F by 4 list of quad face indices into rows of NV
 void sphere(
-  const int num_faces_u,
-  const int num_faces_v,
-  Eigen::MatrixXd & V,
-  Eigen::MatrixXi & F,
-  Eigen::MatrixXd & UV,
-  Eigen::MatrixXi & UF,
-  Eigen::MatrixXd & NV,
-  Eigen::MatrixXi & NF);
+	const int num_faces_u,
+	const int num_faces_v,
+	Eigen::MatrixXd& V,
+	Eigen::MatrixXi& F,
+	Eigen::MatrixXd& UV,
+	Eigen::MatrixXi& UF,
+	Eigen::MatrixXd& NV,
+	Eigen::MatrixXi& NF);
 
 #endif
 
